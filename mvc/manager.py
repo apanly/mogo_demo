@@ -10,6 +10,11 @@ manager.add_command('runserver', Server( host='0.0.0.0', port = app.config.get('
 #job entrance
 manager.add_command('runjob', runJob() )
 
+
+@manager.command
+def testCommand():
+    app.logger.info( "test command" )
+
 def main():
     manager.run()
 
