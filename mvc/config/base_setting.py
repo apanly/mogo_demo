@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+SERVER_PORT = 5000
+DEBUG = False
+DEBUG_TB_INTERCEPT_REDIRECTS = False
+SQLALCHEMY_ECHO = False
+SECRET_KEY = 'ZoDWffA2deeVOzii'
