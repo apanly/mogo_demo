@@ -33,3 +33,4 @@ class JobTask():
             tmp_data.append( "[%s]"%(p) +  "价格：%s" % item.select(".label-price")[0].getText())
             tmp_data.append( "[%s]"%(p) +  "地理位置：%s" % item.select("p.text-ellipsis")[0].getText())
             app.logger.info("\r\n".join(tmp_data))
+
